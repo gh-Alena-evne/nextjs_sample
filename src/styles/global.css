@@ -1,0 +1,25 @@
+* {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-thumb {
+    background: #5B52E7;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+    background: #33354D;
+}
+#nprogress .bar {
+    background: #5B52E7;
+    height: 4px;
+    max-width: 99.9%;
+    z-index: 99999;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+    box-shadow: none;
+}
